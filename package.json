@@ -1,0 +1,31 @@
+{
+  "name": "trackooor",
+  "version": "1.0.0",
+  "description": "Meteora DLMM multi-wallet monitor website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "bot": "node bot/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@fontsource/ibm-plex-mono": "^5.2.7",
+    "@fontsource/outfit": "^5.2.8",
+    "@meteora-ag/dlmm": "^1.9.3",
+    "@napi-rs/canvas": "^0.1.68",
+    "@solana/web3.js": "^1.98.4",
+    "axios": "^1.9.0",
+    "cheerio": "^1.2.0",
+    "cloudscraper": "^4.6.0",
+    "cors": "^2.8.6",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.2.1",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.3"
+  }
+}
